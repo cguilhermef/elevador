@@ -1,0 +1,57 @@
+body {
+  background: transparent url("bg.jpg") no-repeat 50% 0;
+}
+.display {
+  background-color: #000;
+  border: 2px solid gray;
+  color: #c00;
+  font-size: 2rem;
+  height: 4.5rem;
+  line-height: 2rem;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.keyboard {
+  background-color: #888;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, .06);
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .45);
+  font-weight: 700;
+}
+
+.floor-list {
+  list-style: none;
+  font-size: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.floor {
+  display: inline-block;
+  border: 1px solid #111;
+  font-size: 1rem;
+  min-width: 21px;
+  text-align: center;
+}
+.floor + .floor {
+  border-left: none;
+}
+
+.btn-confirma {
+  color: #060;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.btn-portaria {
+  color: #006;
+}
+
+.btn-emergencia {
+  color: #ddc000;
+}
